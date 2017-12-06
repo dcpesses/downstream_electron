@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>JSDoc: Class: Chunk</title>
+    <title>JSDoc: Class: serveOfflineContent</title>
 
     <script src="scripts/prettify/prettify.js"> </script>
     <script src="scripts/prettify/lang-css.js"> </script>
@@ -17,7 +17,7 @@
 
 <div id="main">
 
-    <h1 class="page-title">Class: Chunk</h1>
+    <h1 class="page-title">Class: serveOfflineContent</h1>
 
     
 
@@ -28,7 +28,8 @@
 
 <header>
     
-        <h2><span class="attribs"><span class="type-signature"></span></span>Chunk<span class="signature">(url, options)</span><span class="type-signature"> &rarr; {<a href="Chunk.html">Chunk</a>}</span></h2>
+        <h2><span class="attribs"><span class="type-signature"></span></span>
+            <span class="ancestors"><a href="OfflineContentServer.html">OfflineContentServer</a>#</span>serveOfflineContent<span class="signature">(callback)</span><span class="type-signature"></span></h2>
         
     
 </header>
@@ -41,7 +42,7 @@
     
 
     
-    <h4 class="name" id="Chunk"><span class="type-signature"></span>new Chunk<span class="signature">(url, options)</span><span class="type-signature"> &rarr; {<a href="Chunk.html">Chunk</a>}</span></h4>
+    <h4 class="name" id="serveOfflineContent"><span class="type-signature"></span>new serveOfflineContent<span class="signature">(callback)</span><span class="type-signature"></span></h4>
     
 
     
@@ -81,13 +82,13 @@
 
         <tr>
             
-                <td class="name"><code>url</code></td>
+                <td class="name"><code>callback</code></td>
             
 
             <td class="type">
             
                 
-<span class="param-type">string</span>
+<span class="param-type">function</span>
 
 
             
@@ -97,30 +98,7 @@
 
             
 
-            <td class="description last">url</td>
-        </tr>
-
-    
-
-        <tr>
-            
-                <td class="name"><code>options</code></td>
-            
-
-            <td class="type">
-            
-                
-<span class="param-type">object</span>
-
-
-            
-            </td>
-
-            
-
-            
-
-            <td class="description last">options</td>
+            <td class="description last">a callback function to get listen port (if default is taken)</td>
         </tr>
 
     
@@ -179,28 +157,6 @@
 
 
 
-<h5>Returns:</h5>
-
-        
-<div class="param-desc">
-    - chunk object
-</div>
-
-
-
-<dl>
-    <dt>
-        Type
-    </dt>
-    <dd>
-        
-<span class="param-type"><a href="Chunk.html">Chunk</a></span>
-
-
-    </dd>
-</dl>
-
-    
 
 
 
