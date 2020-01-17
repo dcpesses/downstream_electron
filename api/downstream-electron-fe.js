@@ -46,6 +46,7 @@ function bindAll (scope) {
 function clonePersistentConfig (config) {
   // deep clone the config
   const clonedConfig = JSON.parse(JSON.stringify(config));
+  console.log('[clonePersistentConfig]', config);
   if (typeof config.serverCertificate !== 'undefined') {
     clonedConfig.serverCertificate = typeof config.serverCertificate;
   }
